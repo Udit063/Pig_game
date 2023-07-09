@@ -63,13 +63,13 @@ hold.addEventListener('click', function () {
         curr = 0;
     }
 
-    if (s1 >= 10) {
+    if (s1 >= 100) {
         p1.classList.add('player--winner');
         roll.disabled = true;
         hold.disabled = true;
         rolldice.classList.add('hidden');
     }
-    else if (s2 >= 10) {
+    else if (s2 >= 100) {
         p2.classList.add('player--winner');
         roll.disabled = true;
         hold.disabled = true;
